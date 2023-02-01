@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lan="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Meu primeiro site</title>
+
+</head>
+
+<body>
+    <h1 style="border: 2px solid blueviolet;">Paragrafos e gays</h1>
+    <figcaption>Legenda</figcaption>
+    <!-- é legenda <figcaption></figcaption> -->
+
+    <hr>
+    <p>se precisar usar o sinal de maior é so= <br> &lt;p&gt;</p>
+    <p>slg <a href="https://www.google.com.br" alt="descrição">Google</a>
+
+    <ul>
+        <li><a href="https://www.instagram.com/arthur_cf8/" target="_blank">Meu @arthur_cf8</a></li><br>
+    </ul>
+    <!--CIMA (target blak)=é para abrir outra janela!!!-->
+
+    <p style="background-color: aqua;">Paragrafo</p>
+    <!--Para mudar a cor da linha-->
+    </p>
+    <!--OLA GAYY-->
+    <p>
+        &#x1F596;
+    </p>
+    <ul style="list-style-type:square;">
+        <li>circulo</li>
+        <li>quadrado</li>
+        <li>redondo</li>
+    </ul>
+
+    <span style="background-color: brown;">Paragrafo brown</span>
+    <span>Texto</span>
+    <!--span é para continuar na mesma linha-->
+    <img src="./Captura de tela_20230130_103613.png" alt="Messi careca">
+
+    <form>
+        <button type="submit">Enviar</button>
+        <input type="text">
+
+    </form>
+    <br>
+    <!--o uso do <form> é para mandar depois para um sevidor-->
+    <form action="/pagina-processa-dados-do-form" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" />
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" />
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg"></textarea>
+        </div>
+    </form>
+    <!--Nome , email , mensagem -->
+
+    <input type="date"><br>
+    <br>
+
+    <input type="range"> <br><br>
+    <!--Ai tem varios tipos de type//olhar no link que colocarei= https://conteudo-kenzie-fullstack.vercel.app/modulo_1/html_formularios_input/index.html-->
+
+    <input type="text" placeholder="Digite seu nome aqui..." maxlength="10">
+    <p></p>
+    <br>
+    <!--placeholder pra aprecer na barra/ maxlength sao caracteres maximos-->
+    <input type="password" placeholder="Digite sua senha aqui...">
+    <br>
+    <br>
+    <!--label são os indentificadores -->
+    <label for="">Senha</label>
+    <input type="password" placeholder="Digite sua senha">
+    <br>
+    <p></p>
+
+    <!-- O FOR VAI PRO ID/ QUANDO VC CLICA NO FOR=NOME -- ELA VAI PRO ID=NOME -->
+
+    <label for="name">Clique em mim</label> <!--agora se clicar em senha ele vai pro espaço-->
+    <input type="text" id="name" name="nomeDoUsuario" placeholder="Digite sua senha" required="True">
+    <!--required é para ter que preencher o campo/ou seja = campo obrigatorio-->
+    <button type="submit">Cadastro</button>
+
+    <p></p>
+
+    <form>
+        <label for="nome">Escrevaa</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui..." required />
+        <button type="submit">Enviar nome</button>
+    </form>
+    <!--pra aparecer lá em cima o nome-->
+
+    <!-- USANDO O TYPE RADIO AI  -->
+    <form>
+        <p>Teste 1</p>
+
+        <label for="email">E-mail</label>
+        <input id="email" type="radio" name="metodoDeContato" value="email">
+
+        <label for="radio">Teefone</label>
+        <input id="radio" type="radio" name="metodoDeContato" value="radio">
+
+        <label for="whatpp">Whatpp</label>
+        <input id="whatpp" type="radio" name="metodoDeContato" value="whatpp" required>
+
+        <button type="submit">Enviar</button>
+        <form>
+            <p></p>
+            <!-- agora vai de escolher viadinho e aparece lá em cima -->
+            <form>
+                <label for="">agr vai puta</label>
+
+                <select name="plano" required="true" id="plano">
+
+                    <option value="">Escolha um plano</option>
+                    <option value="free">Free</option>
+                    <option value="premium">Premiiummmm</option>
+                    <option value="pro">Pro ne pai</option>
+
+
+                </select>
+                <button type="submit">Cadastraa ae poha</button>
+            </form>
+            <p></p>
+            <!-- PARA BLOCO DE TEXTO  -->
+            <form>
+                <label for="mensagem">AI em baixo</label> <br>
+
+                <textarea placeholder="Digita disgrama" name="de cria" id="mensagem" cols="30" rows="8"
+                    required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <center></center>
+            <!-- PARA OS CODIGO FICA NO CENTRO! -->
+
+            <!-- para subir para RESPOSITORIO NO GITHUB, tem que levar para pasta git_aula_arthur dai faz git add / commit/ push. -->
+            <!-- git status = para ver se foi modificado o CODIGO/ para subir o codigo git add . enter/ git commit -m "Legenda=2 versao etc" enter/ git push enter/ai vai ficar com o sinal de U la em cima do lado do arquivo -->
+
+
+</body>
+
+
+</html>
